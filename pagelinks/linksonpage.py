@@ -1,3 +1,5 @@
+# Get all links on a web page and save to a .txt file
+
 import requests
 from bs4 import BeautifulSoup
 import os
