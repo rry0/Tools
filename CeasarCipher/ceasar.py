@@ -5,7 +5,7 @@ task = input('Encrypt (E) // Decrypt (D): ')
 text = input('Enter text: ')
 key = int(input('How many to shift by?: '))
 
-ciphertext = ''
+ciphertext = '' # Set to null
 
 if task.lower() == 'e':
     for char in text:  # for each character in the text
