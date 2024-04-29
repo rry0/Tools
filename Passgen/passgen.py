@@ -13,4 +13,3 @@ for a in range(amount):
         password += random.choice(chars)
     print(password)
     print(" ")
-
